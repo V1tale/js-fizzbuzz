@@ -1,0 +1,33 @@
+body {
+    /* background-color: rgb(34, 34, 34); */
+    background-color: rgba(0, 49, 83);
+}
+.container {
+    margin:auto;
+}
+.row {
+    flex-wrap: wrap;
+    font-size: 2rem;
+    
+}
+.row * {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(34, 146, 62);
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.fizz {
+    background-color: rgb(245, 222, 89);
+    color:black;
+}
+.buzz {
+    background-color: rgb(238, 148, 44);
+}
+.fizzBuzz {
+    background-color: rgb(189, 53, 53);
+}
